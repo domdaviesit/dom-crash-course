@@ -26,16 +26,24 @@
 // console.log(document.links);
 // console.log(document.images);
 
+
+//  SELECTORS 
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
 // GETELEMENTBYID //
 // console.log(document.getElementById('header-title'));
 // var headerTitle = document.getElementById('header-title');
 // var header = document.getElementById('main-header');
 // console.log(headerTitle);
+
+// textContent and innerText similar innerText more with style, textContent ignores styles - but otherwise quite similar
 // headerTitle.textContent = 'Hello';
 // headerTitle.innerText = 'Goodbye';
 // console.log(headerTitle.innerText);
 // headerTitle.innerHTML = '<h3>Hello</h3>';
-// header.style.borderBottom = 'solid 3px #000';
+// puts the h3 inside the h1 DOM element
+
+// headerTitle.style.borderBottom = 'solid 3px #000';
 
 // GETELEMENTSBYCLASSNAME //
 // var items = document.getElementsByClassName('list-group-item');
